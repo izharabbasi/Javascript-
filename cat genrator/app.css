@@ -1,18 +1,19 @@
 .container{
+    padding: 10px;
     border: 1px solid black;
-    width: 75%;
     text-align: center;
-    margin: 0 auto;
 }
 
 .flex-box{
+    padding: 10px;
+    margin: 0px auto;
     border: 1px solid black;
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
-.flex-box img {
-    box-shadow: 0px 10px 50px gray(0,0,0,0,7);
+.flex-box img{
     padding: 10px;
+    box-shadow: 0px 10px 50px grey(0,0,0,0,7);
 }
