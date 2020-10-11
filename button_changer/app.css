@@ -1,0 +1,15 @@
+.container{
+    padding: 10px;
+    margin: 0% auto;
+    border: 1px solid black;
+    text-align: center;
+    width: 75%;
+}
+.flex-box{
+    display: flex;
+    padding: 10px;
+    margin: 0% auto;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
