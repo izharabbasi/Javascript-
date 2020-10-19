@@ -1,19 +1,15 @@
-.container {
+.container-1{
     padding: 10px;
     border: 1px solid black;
     text-align: center;
 }
-.flex-box{
-    padding: 10px;
-    margin: 0 auto;
-    border: 1px solid black;
+
+.flex-box-1{
     display: flex;
+    padding: 10px;
+    margin: 0% auto;
+    border: 1px solid black;
     justify-content: space-around;
     flex-direction: row;
-
-}
-
-.flex-box div {
-    padding: 10px;
-    border: 1px solid black;
+    flex-wrap: wrap;
 }
